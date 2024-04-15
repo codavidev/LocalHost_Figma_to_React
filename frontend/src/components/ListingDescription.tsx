@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import DetailsCard from "../components/DetailsCard";
+import DetailsCard from "./DetailsCard";
 import styles from "./ListingDescription.module.css";
 
 const ListingDescription: FunctionComponent = () => {

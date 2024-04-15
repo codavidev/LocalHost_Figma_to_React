@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import DateTimeContainer from "../components/Frame 37";
+import DateTimeContainer from "./Frame 37";
 import styles from "./HeroContainer.module.css";
 
 const HeroContainer: FunctionComponent = () => {
