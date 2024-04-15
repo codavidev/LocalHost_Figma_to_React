@@ -1,0 +1,203 @@
+.signIn {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-family: inherit;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.emailAddress {
+  width: calc(100% - 55.8px);
+  border: 0;
+  outline: 0;
+  font-family: var(--font-archivo);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 17px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.24px;
+  color: var(--light-text);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  min-width: 150px;
+  max-width: calc(100% - 29px);
+  padding: 0;
+}
+.iconaccount {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.email,
+.password1 {
+  display: flex;
+  align-items: center;
+}
+.email {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-base-5) var(--padding-mid) var(--padding-base-5)
+    var(--padding-lg-8);
+  gap: var(--gap-3xs-4);
+  max-width: 100%;
+}
+.password1 {
+  width: calc(100% - 55.8px);
+  border: 0;
+  outline: 0;
+  font-family: var(--font-archivo);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 17px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.24px;
+  color: var(--light-text);
+  text-align: left;
+  min-width: 150px;
+  max-width: calc(100% - 29px);
+  padding: 0;
+}
+.iconpassword {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.formFields,
+.password {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.password {
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 1px solid var(--color-gainsboro);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-base-5) var(--padding-mid) var(--padding-base-5)
+    var(--padding-lg-8);
+  gap: var(--gap-3xs-4);
+}
+.formFields {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: var(--gap-base-7);
+}
+.button {
+  width: 54px;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  font-weight: 600;
+  font-family: var(--font-archivo);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  min-width: 54px;
+}
+.searchFlightsButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-34xl);
+  background-color: var(--accent);
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.searchFlightsButton:hover {
+  background-color: var(--color-lightseagreen-100);
+}
+.form2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-7xl-7);
+  max-width: 100%;
+}
+.form1,
+.form2,
+.signInField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form1 {
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.signInField {
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.formChild {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  border-top: 1.6px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+}
+.signUp {
+  color: var(--accent);
+}
+.dontHaveAnContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  line-height: 26px;
+  text-align: center;
+  cursor: pointer;
+}
+.form {
+  flex: 1;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-29xl);
+  box-sizing: border-box;
+  gap: var(--gap-18xl-2);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 750px) {
+  .form {
+    gap: var(--gap-lgi);
+    padding: var(--padding-184xl-5) var(--padding-5xl) var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .signIn {
+    font-size: var(--font-size-2xl);
+  }
+}
